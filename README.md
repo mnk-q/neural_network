@@ -14,9 +14,10 @@ Just like in linear regression, where we fit a line onto a data using
 
  there is one more concept, which is called activation of neuron
  that means we apply a function on it, like
- Sigmoid
- ReLU
- Linear and
- Softmax.
+ <ul>
+ <li>Sigmoid</li>
+ <li>ReLU</li>
+ <li>Linear and</li>
+ <li>Softmax.</li> </ul>
  These functions determine whether a neuron is firing or not.
 
