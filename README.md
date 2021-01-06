@@ -12,7 +12,7 @@ Just like in linear regression, where we fit a line onto a data using
  and the whole play of training neural network goes out to find the perfect weights and biases using
  stochastic gradient descent (Normal gradient descent, but drunk.). That's just it.
 
- there is one more concept, which is called activation of neuron
+Another concept is called activation of neuron
  that means we apply a function on it, like
  <ul>
  <li>Sigmoid</li>
