@@ -20,5 +20,14 @@ Another concept is called activation of neuron
  <li>Linear and</li>
  <li>Softmax.</li> </ul>
  These functions determine whether a neuron is firing or not.
+ <br>
+ <h4> Linear</h4> : y = x ,it is the default one.<br> 
+ <br><h4> Step </h4> : A Basic improvement over Linear. y = 1 if x > 0 else y = 0  
+ <br><h4> Sigmoid</h4> : This function is pretty basic, it produces the value beteen 0 and 1. This one is old and not used because this function has some beef with gradient descent. This, and tanh both, they saturate, meaning larger values snap to 1 and smaller values snap to -1 or 0.<br>
+ <img src="https://mathworld.wolfram.com/images/equations/SigmoidFunction/NumberedEquation1.gif"><br>
+ <br><h4> ReLU</h4> :The function, which every basic neural net uses. Recitfier Linear unit. this one is fast, and powerful. <br> y = x if x>0 else y = 0 <br> <img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Line-Plot-of-Rectified-Linear-Activation-for-Negative-and-Positive-Inputs.png"><br>
  
- <h4> Sigmoid</h4> : This function is pretty basic, it produces the value beteen 0 and 1. 
+ <br><h4> Hyperbolic Tangent</h4> : tanh(x). It is a non linear function. an improvement over Sigmoid. Sigmoid stays between 0 and 1, tanh stays between -1 and 1. the values, that they give, are called granular values.<br><img src="https://mathworld.wolfram.com/images/interactive/TanhReal.gif"><br>
+
+ What comes out after activation functions of the neuron becomes an input for the next layer ones.
+
