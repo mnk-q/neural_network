@@ -20,4 +20,6 @@ Another concept is called activation of neuron
  <li>Linear and</li>
  <li>Softmax.</li> </ul>
  These functions determine whether a neuron is firing or not.
-
+ 
+ <h4> Sigmoid</h4> : This function is pretty basic, it produces the value beteen 0 and 1. 
+<img src='https://computing.dcu.ie/~humphrys/Notes/Neural/Bitmaps/sigmoid.3.gif'>
