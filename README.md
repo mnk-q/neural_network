@@ -1,4 +1,4 @@
-# neural_network
+# Neural_Network
  Building my own neural network
 This is a demo of building a neural Net from scratch
 By Scratch, I mean understanding how the neural nets actually work, what is the mathematics behind this.
@@ -30,4 +30,14 @@ Another concept is called activation of neuron
  <br><h4> Hyperbolic Tangent</h4> : tanh(x). It is a non linear function. an improvement over Sigmoid. Sigmoid stays between 0 and 1, tanh stays between -1 and 1. the values, that they give, are called granular values.<br><img src="https://mathworld.wolfram.com/images/interactive/TanhReal.gif"><br>
 
  What comes out after activation functions of the neuron becomes an input for the next layer ones.
+ 
+ <h4>Softmax</h4>
+<br>This one is currently most used, because it gives the probabilities of all the the nodes, with sum of all probabilities being 1. This one is primarily used for Handwriting Recognition (As we will do it.), because it gives the probabilities of all digits, and we choose highest one.
+<img src = 'https://www.gstatic.com/education/formulas2/-1/en/softmax_function.svg' >
 
+<hr>
+That was about the Activation function, but that was just a tip. Still, we gotta figure out how Neural Networks Learn. More Specifically, BackPropagation <br>
+Here, Learning means changing their weights and biases appropriately so that It recognizes right digit every time.<br>
+For that , we use something called <br>
+<strong>Cost Function</strong>
+The cost function is a function derived by, squaring the difference between neural network's output and correct output, adding them all, and then taking their average. Notice, that it is a function of our parameters (ie weigths and biases). There is no specific formula for this. Every Algorithm calculates Cost Function differently. 
